@@ -10,6 +10,7 @@
     "angular-route": "1.2.x",
     "angular-loader": "1.2.x",
     "angular-mocks": "~1.2.x",
-    "html5-boilerplate": "~4.3.0"
+    "html5-boilerplate": "~4.3.0",
+    "ColorConverter.js": "https://github.com/SimonWaldherr/ColorConverter.js.git#~0.1.0"
   }
 }
