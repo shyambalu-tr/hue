@@ -1,11 +1,8 @@
 'use strict';
-
 /* Directives */
-
-
 angular.module('hue.directives', []).
-  directive('appVersion', ['version', function(version) {
-    return function(scope, elm, attrs) {
-      elm.text(version);
+directive('hslColor', function(version) {
+    return {
+    	templateUrl: 'partials/colorView.html'
     };
-  }]);
+});

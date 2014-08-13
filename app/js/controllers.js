@@ -10,5 +10,6 @@ angular.module('hue.controllers', [])
     $scope.hsl = function () {
         var rgb = colorconv.parse($scope.hex);
         return colorconv.RGB2HSL(rgb);
+
     };
 }])
